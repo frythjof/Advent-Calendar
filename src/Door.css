@@ -1,0 +1,24 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  padding: 30px;
+  margin: 30px;
+}
+
+.open {
+  background: #e07169;
+  transform: rotatey(0deg) scale(1);
+  box-shadow: 10px 10px 8px #6d726f, -10px 10px 8px #6d726f,
+    10px -10px 8px #6d726f, -10px -10px 8px #6d726f;
+  transition: all 0.5s ease;
+}
+
+.closed {
+  background: #9b2e2e;
+  transition: all 0.5s ease;
+  transform: rotatey(0deg) scale(1);
+  border: 2px solid;
+}
